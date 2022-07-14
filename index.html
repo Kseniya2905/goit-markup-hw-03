@@ -5,43 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-      <div class="header">
-        <nav>
-          <a class="link logo" href="#"
-            >Web
-            <p class="link logo dark" href="#">Studio</p>
-          </a>
-          <ul>
-            <li class="list">
-              <a class="link" href="#">Студия</a>
-            </li>
-            <li class="list">
-              <a class="link" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="list">
-              <a class="link" href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="contaсt">
-          <li class="list">
-            <a class="link item" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+      <nav>
+        <a class="link logo" href="#"
+          >Web
+          <span class="logo dark">Studio</span>
+        </a>
+        <ul class="list">
+          <li>
+            <a class="link" href="#">Студия</a>
           </li>
-          <li class="list">
-            <a class="link item" href="tel:+380961111111">+38096 111 11 11</a>
+          <li>
+            <a class="link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li>
+            <a class="link" href="#">Контакты</a>
           </li>
         </ul>
-      </div>
+      </nav>
+      <ul class="list">
+        <li>
+          <a class="link item" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="link item" href="tel:+380961111111">+38096 111 11 11</a>
+        </li>
+      </ul>
     </header>
     <main>
       <section class="hero">
@@ -49,29 +49,29 @@
         <button class="button" type="button">Заказать услугу</button>
       </section>
       <section>
-        <ul>
-          <li class="list">
+        <ul class="list">
+          <li>
             <h3 class="colection">Внимание к деталям</h3>
             <p class="item">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li class="list">
+          <li>
             <h3 class="colection">Пунктуальность</h3>
             <p class="item">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li class="list">
+          <li>
             <h3 class="colection">Планирование</h3>
             <p class="item">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li class="list">
+          <li>
             <h3 class="colection">Современные технологии</h3>
             <p class="item">
               Значимость этих проблем настолько очевидна, что реализация
@@ -82,8 +82,8 @@
       </section>
       <section>
         <h2 class="title topic">Чем мы занимаемся</h2>
-        <ul>
-          <li class="list">
+        <ul class="list">
+          <li>
             <img
               src="./img/develop.jpg"
               width="370"
@@ -91,7 +91,7 @@
               alt="разработка сайтов"
             />
           </li>
-          <li class="list">
+          <li>
             <img
               src="./img/app.jpg"
               width="370"
@@ -99,7 +99,7 @@
               alt="разработка приложений"
             />
           </li>
-          <li class="list">
+          <li>
             <img
               src="./img/grafic.jpg"
               width="370"
@@ -111,8 +111,8 @@
       </section>
       <section class="tim">
         <h2 class="title topic">Наша команда</h2>
-        <ul>
-          <li class="list">
+        <ul class="list">
+          <li>
             <img
               src="./img/demyanenko.jpg"
               width="270"
@@ -120,14 +120,14 @@
               alt="Демьяненко"
             />
             <h3 class="title">Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <p class="text">Product Designer</p>
           </li>
-          <li class="list">
+          <li>
             <img src="./img/repina.jpg" width="270" height="260" alt="Репина" />
             <h3 class="title">Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <p class="text">Frontend Developer</p>
           </li>
-          <li class="list">
+          <li>
             <img
               src="./img/tarasov.jpg"
               width="270"
@@ -135,9 +135,9 @@
               alt="Тарасов"
             />
             <h3 class="title">Николай Тарасов</h3>
-            <p>Marketing</p>
+            <p class="text">Marketing</p>
           </li>
-          <li class="list">
+          <li>
             <img
               src="./img/ermakov.jpg"
               width="270"
@@ -145,7 +145,7 @@
               alt="Ермаков"
             />
             <h3 class="title">Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <p class="text">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -153,7 +153,7 @@
     <footer class="footer">
       <a class="link logo" href="#"
         >Web
-        <p class="link logo light">Studio</p>
+        <span class="logo light">Studio</span>
       </a>
       <address>
         <ul class="list">
