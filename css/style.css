@@ -417,7 +417,7 @@ body {
   color: var(--logo-color-darck);
 }
 .dark:hover {
-  color: #000000;
+  color: var(--logo-color-darck);
 }
 .light {
   color: var(--text-color-wight);
@@ -504,9 +504,4 @@ button:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 1.71;
-}
-.header {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
