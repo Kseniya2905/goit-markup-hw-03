@@ -7,7 +7,7 @@
     <title>WebStudio</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,67 +18,68 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="container">
+    <div>
       <header>
-        <nav class="nav">
+        <nav>
           <a class="link logo" href="#"
-            >Web
-            <span class="logo dark">Studio</span>
+            >Web<span class="logo dark">Studio</span>
           </a>
           <ul class="list">
             <li>
-              <a class="link" href="#">Студия</a>
+              <a class="nav-link current link" href="#">Студия</a>
             </li>
             <li>
-              <a class="link" href="./portfolio.html">Портфолио</a>
+              <a class="nav-link link" href="./portfolio.html">Портфолио</a>
             </li>
             <li>
-              <a class="link" href="#">Контакты</a>
+              <a class="nav-link link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="list">
           <li>
-            <a class="link item" href="mailto:info@devstudio.com"
+            <a class="contact-link link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link item" href="tel:+380961111111">+38096 111 11 11</a>
+            <a class="contact-link link" href="tel:+380961111111"
+              >+38096 111 11 11</a
+            >
           </li>
         </ul>
       </header>
       <main>
         <section class="hero">
-          <h1>Эффективные решения для вашего бизнесса</h1>
+          <h1 class="hero-title">Эффективные решения для вашего бизнесса</h1>
           <button class="button" type="button">Заказать услугу</button>
         </section>
         <section>
           <ul class="list">
             <li>
-              <h3 class="colection">Внимание к деталям</h3>
-              <p class="item">
+              <h3 class="collection-title">Внимание к деталям</h3>
+              <p class="collection-deskript">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
             <li>
-              <h3 class="colection">Пунктуальность</h3>
-              <p class="item">
+              <h3 class="collection-title">Пунктуальность</h3>
+              <p class="collection-deskript">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
             <li>
-              <h3 class="colection">Планирование</h3>
-              <p class="item">
+              <h3 class="collection-title">Планирование</h3>
+              <p class="collection-deskript">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
             <li>
-              <h3 class="colection">Современные технологии</h3>
-              <p class="item">
+              <h3 class="collection-title">Современные технологии</h3>
+              <p class="collection-deskript">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -86,7 +87,7 @@
           </ul>
         </section>
         <section>
-          <h2 class="title topic">Чем мы занимаемся</h2>
+          <h2 class="topic">Чем мы занимаемся</h2>
           <ul class="list">
             <li>
               <img
@@ -115,7 +116,7 @@
           </ul>
         </section>
         <section class="tim">
-          <h2 class="title topic">Наша команда</h2>
+          <h2 class="topic">Наша команда</h2>
           <ul class="list">
             <li>
               <img
@@ -162,14 +163,13 @@
       </main>
       <footer class="footer">
         <a class="link logo" href="#"
-          >Web
-          <span class="logo light">Studio</span>
+          >Web<span class="logo light">Studio</span>
         </a>
-        <address>
+        <address class="address">
           <ul class="list">
             <li>
               <a
-                class="link address"
+                class="address-link accent link"
                 href="https://goo.gl/maps/NY9jB76HG3i3NCJy5"
                 rel="noreferrer noopener nofollow"
                 target="_blank"
@@ -177,12 +177,12 @@
               </a>
             </li>
             <li>
-              <a class="link address" href="mailto:info@example.com"
+              <a class="address-link link" href="mailto:info@example.com"
                 >info@example.com
               </a>
             </li>
             <li>
-              <a class="link address" href="tel:+380991111111"
+              <a class="address-link link" href="tel:+380991111111"
                 >+38096 111 11 11
               </a>
             </li>
