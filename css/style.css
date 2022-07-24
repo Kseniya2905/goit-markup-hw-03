@@ -44,6 +44,9 @@ body {
   color: var(--color-blue);
 }
 .logo {
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: 215px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -187,4 +190,15 @@ button:hover {
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--text-color-gray);
+}
+.container {
+  width: 1600px;
+  height: 80px;
+  margin-top: 0%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
 }
