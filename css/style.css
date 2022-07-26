@@ -45,6 +45,9 @@ body {
   font-style: normal;
   font-size: 14px;
 }
+header {
+  border: 1px solid #ECECEC;
+}
 .link {
   text-decoration: none;
 }
@@ -57,6 +60,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.06em;
+  gap: 50px;
 }
 .nav-link.current {
   color: var(--color-blue);
@@ -65,12 +69,8 @@ body {
   display: flex;
   justify-content: space-between;
   width: 294px;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 .logo {
-  display: flex;
-  align-items: baseline;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -95,8 +95,6 @@ body {
 }
 .list {
   list-style-type: none;
-  margin-top: 0%;
-  margin-bottom: 0%;
 }
 .contact-list {
   display: flex;
@@ -116,7 +114,7 @@ body {
   flex-wrap: wrap;
 }
 .hero-title {
-  margin-top:  200px;
+  margin-top: 200px;
   margin-bottom: 0%;
   font-weight: 900;
   font-size: 44px;
@@ -147,7 +145,6 @@ button:hover {
 .collection-list {
   margin-top: 94px;
   display: flex;
-  justify-content: space-between;
   gap: 30px;
 }
 .collection-title {
@@ -176,6 +173,8 @@ button:hover {
   letter-spacing: 0.03em;
 }
 .text {
+  margin-top: 10px;
+  margin-bottom: 30px;
   color: var(--text-color-gray);
   font-size: 16px;
   line-height: 1.18;
@@ -183,9 +182,8 @@ button:hover {
   text-align: center;
 }
 .topic {
-  display: flex;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 94px;
   font-weight: 700;
   font-size: 36px;
@@ -196,7 +194,6 @@ margin-right: auto;
   margin-top: 50px;
   margin-bottom: 94px;
   display: flex;
-  justify-content: space-between;
   gap: 30px;
 }
 .topic-container {
@@ -212,14 +209,20 @@ margin-right: auto;
   display: flex;
   margin-top: 50px;
   margin-bottom: 94px;
-  justify-content: space-between;
+  gap: 30px;
+}
+.tim-card {
+  background-color: var(--text-color-wight);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .tim-container {
   display: flex;
   flex-wrap: wrap;
-
 }
 .title {
+  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -244,6 +247,9 @@ margin-right: auto;
 }
 .address {
   font-style: normal;
+  margin-left: 215px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 .address-link {
   color: var(--address-text-color);
@@ -272,7 +278,7 @@ margin-right: auto;
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
-  padding-right:15px;
+  padding-right: 15px;
 }
 .header-container {
   justify-content: space-between;
@@ -280,7 +286,20 @@ margin-right: auto;
   align-items: center;
 }
 .nav-containetr {
+  margin-top: 32px;
+  margin-bottom: 32px;
   display: flex;
-  justify-content: space-between;
   gap: 93px;
+}
+.selection-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.logotipe {
+  margin-top: 60px;
+  margin-left: 215px;
+}
+.footer-container {
+  flex-direction: column;
 }
