@@ -46,7 +46,7 @@ body {
   font-size: 14px;
 }
 header {
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
 }
 .link {
   text-decoration: none;
@@ -109,6 +109,7 @@ header {
   color: var(--text-color-wight);
 }
 .hero-container {
+  display: flex;
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -123,7 +124,6 @@ header {
   text-transform: uppercase;
 }
 .button {
-  display: flex;
   margin-top: 30px;
   margin-bottom: 200px;
   padding: 10px 32px;
@@ -156,6 +156,8 @@ button:hover {
   text-transform: uppercase;
 }
 .selection {
+  margin-top: 94px;
+  margin-bottom: 16px;
   background-color: var(--background-light);
   color: var(--text-color-black);
   font-weight: 500;
@@ -261,6 +263,9 @@ button:hover {
   color: var(--text-color-wight);
 }
 .project {
+  margin-top: 20px;
+  margin-right: 24px;
+  margin-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
@@ -268,26 +273,38 @@ button:hover {
   color: var(--text-color-black);
 }
 .project-descript {
+  margin-top: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--text-color-gray);
 }
-.container {
+.project-collection {
+  margin-bottom: 94px;
+  margin-top: 34px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.container {
   width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 .header-container {
+  display: flex;
   justify-content: space-between;
   height: 80px;
   align-items: center;
 }
-.nav-containetr {
+.nav-container {
   margin-top: 32px;
   margin-bottom: 32px;
+  align-items: center;
   display: flex;
   gap: 93px;
 }
@@ -301,5 +318,6 @@ button:hover {
   margin-left: 215px;
 }
 .footer-container {
+  display: flex;
   flex-direction: column;
 }
